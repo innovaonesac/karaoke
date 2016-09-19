@@ -10,8 +10,8 @@
 
   <body>
      <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+    <nav class="navbar navbar-inverse" role="navigation"  style="margin:0px;">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -20,20 +20,27 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">SIGN IN</a>
+                <a class="navbar-brand" href="#"><img src="http://innovaes.com.pe/images/innova/innova-logo.svg" width="700" alt=""height="35"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">SALAS</a>
-                    </li>
-                    <li>
-                        <a href="#">SERVICIOS</a>
-                    </li>
-                    <li>
-                        <a href="#">CONTACTO</a>
-                    </li>
+                    <li class="active"> <a href="index.html">HOME</a></li>
+                    <li><a href="index.html">SALAS</a></li>    
+                    <li><a href="index.html">SERVICIOS</a></li> 
+                    <li><a href="index.html">CONTACTO</a></li>
+                    <li class="dropdown">
+                   <a href="#" class="dropdown-toogle" data-toogle="dropdown">INNOVAONE<b class="caret"></b></a>   
+                   <ul class="dropdown-menu">
+                    <li><a href="#">Link1</a></li>
+                    <li><a href="#">Link2</a></li>
+                    <li><a href="#">Link3</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#"> One more separated link</a></li>
+                   </ul>
+                </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -71,4 +78,3 @@
     
   </body>
 </html>
-
